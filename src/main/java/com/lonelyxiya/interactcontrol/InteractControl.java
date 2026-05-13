@@ -1,4 +1,4 @@
-package com.lonelyxiya.blockinteractionmod;
+package com.lonelyxiya.interactcontrol;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -19,8 +19,8 @@ import java.util.HashSet;
 import java.util.Set;
 import net.minecraft.client.resources.I18n;
 
-@Mod(modid = "blockinteractionmod", name = "BlockInteractionMod", version = "1.0")
-public class Blockinteractionmod {
+@Mod(modid = Tags.MOD_ID, name = Tags.MOD_NAME, version = Tags.VERSION)
+public class InteractControl {
 
     private static Set<BlockData> blockedBlocks = new HashSet<>();
     private static Set<ItemData> blockedItems = new HashSet<>();
